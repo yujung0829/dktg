@@ -3,26 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { ArticlesComponent } from './articles/articles.component';
-import { FooterComponent } from './footer/footer.component';
-import { TagsComponent } from './tags/tags.component';
-import { NavItemsComponent } from './nav-items/nav-items.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { SiderbarComponent } from './siderbar/siderbar.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
-import { MainContentComponent } from './main-content/main-content.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContentComponent } from './content/content.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    ArticlesComponent,
-    FooterComponent,
-    TagsComponent,
-    NavItemsComponent,
-    SidebarComponent,
+    SiderbarComponent,
     TopBarComponent,
-    MainContentComponent
+    FooterComponent,
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
